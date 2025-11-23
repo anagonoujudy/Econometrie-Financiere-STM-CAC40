@@ -1,0 +1,5 @@
+source : Euronext Paris
+
+période : 02/06/2023 – 06/06/2025
+
+fréquence : journalière

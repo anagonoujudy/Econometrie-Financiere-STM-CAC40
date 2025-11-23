@@ -1,0 +1,10 @@
+## ⚙️ Installation des dépendances (R)
+Ce projet utilise les packages suivants :
+
+`tseries`, `forecast`, `seastests`, `astsa`, `zoo`, `lmtest`, `TTR`, `psych`, `rugarch`
+
+Installation en une commande :
+
+```r
+install.packages(c("tseries","forecast","seastests","astsa","zoo","lmtest","TTR","psych","rugarch"))
+
