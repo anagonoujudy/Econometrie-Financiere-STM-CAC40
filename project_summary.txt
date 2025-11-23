@@ -1,0 +1,40 @@
+Résumé
+------
+
+Ce rapport analyse les rendements journaliers de l’action STMicroelectronics (STM) et de l’indice CAC 40 sur la période juin 2023 – juin 2025 afin d’étudier leur comportement, leur lien au marché et leur dynamique de volatilité. Après transformation des prix non stationnaires en rendements logarithmiques stationnaires, les auteurs montrent que STM est significativement plus volatile que le CAC 40, présente une distribution leptokurtique avec des queues épaisses et que la normalité est rejetée à l’échelle journalière mais tend à apparaître à des horizons plus longs. L’estimation du MEDAF révèle un bêta élevé pour STM (β ≈ 1,39), indiquant une sensibilité supérieure au marché, sans surperformance anormale (alpha non significatif), ce qui signifie que son rendement est entièrement expliqué par les fluctuations du CAC 40. Concernant la volatilité, un modèle GARCH(1,1) met en évidence une très forte persistance de la volatilité pour STM (α + β ≈ 0,999) avec une instabilité temporelle des paramètres, tandis que celle du CAC 40 est plus modérée et stationnaire (α + β ≈ 0,79), traduisant une meilleure régularité du risque pour l’indice. Enfin, les prévisions sur 25 jours indiquent des rendements attendus proches de zéro pour les deux actifs, mais une volatilité en légère hausse, plus marquée pour STM, confirmant que si les performances sont difficilement prévisibles, le risque reste quantifiable et structurellement plus instable pour une action individuelle que pour un indice diversifié.
+
+Sommaire (Voir Rapport.pdf dans le dossier Reports)
+---------------------------------------------------
+
+2
+SOMMAIRE
+Introduction .......................................................................................................................................................................... 3
+
+1) Présentation des actifs ............................................................................................................................................ 3
+
+2) Analyse des données............................................................................................................................................... 4
+2-1) Choix du type de prix ..................................................................................................................................... 4
+2-2) Mise en contexte économique.................................................................................................................... 5
+2-3) Vérification de la stationnarité des données........................................................................................ 6
+2-4) Calcul des rendements .................................................................................................................................. 7
+
+3) Vérification des faits stylisés ........................................................................................................................... 10
+
+3-1) Stationnarité et absence d’autocorrélation ........................................................................ 10
+3-2) Test de nullité de la moyenne des rendements................................................................................ 13
+3-3) Gaussien à grande échelle......................................................................................................................... 13
+3-4) Effet ARCH....................................................................................................................................................... 14
+
+4) Estimation du modèle MEDAF ......................................................................................................................... 17
+
+4-1) Fondement théorique, interprétations et utilité ............................................................................. 17
+4-2) Estimation du modèle MEDAF et interprétation des résultats .................................................. 18
+
+5) Bilan de la volatilité de l'action STM et du portefeuille de marché CAC 40 ................................... 22
+
+5-1) Bilan de la volatilité du STM .................................................................................................................... 22
+5-2 Bilan de la volatilité du CAC 40 ................................................................................................................ 24
+
+6. Prévisions .................................................................................................................................................................. 26
+
+Conclusion .......................................................................................................................................................................... 27
